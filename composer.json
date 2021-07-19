@@ -1,0 +1,26 @@
+{
+    "name": "intendit/twitterembeds",
+    "description": "Extension to embed twitter feeds and various twitter buttons.",
+    "type": "bolt-extension",
+    "keywords": [ "twitter", "embeds" ],
+    "require": {
+        "bolt/bolt": "^3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Svante Richter",
+            "email": "svante.richter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\intendit\\TwitterEmbeds\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "assets",
+        "bolt-icon": "assets/twitter-icon.png",
+        "bolt-class": "Bolt\\Extension\\intendit\\TwitterEmbeds\\TwitterEmbedsExtension"
+    }
+}
